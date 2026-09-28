@@ -56,7 +56,7 @@
 #ifdef GRALLOC_VERSION1
 #include "gralloc1_priv.h"
 #else
-#include "gralloc_priv.h"
+#include "gralloc0_priv.h"
 #endif
 #ifndef USES_FIMC
 #include "exynos_gscaler.h"

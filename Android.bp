@@ -1,0 +1,4 @@
+// Android 17 projects import this path as an explicit Soong namespace.  The
+// Exynos 7870 BSP is still Android.mk-based, but the namespace must exist for
+// those imports to remain valid.
+soong_namespace {}

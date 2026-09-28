@@ -36,6 +36,8 @@
 #define V4L2_PIX_FMT_NV16M_P210        v4l2_fourcc('P', 'M', '1', '6')
 #define V4L2_PIX_FMT_NV61M_P210        v4l2_fourcc('P', 'M', '6', '1')
 #define V4L2_PIX_FMT_NV12_P010         v4l2_fourcc('P', 'N', '1', '2')
+#undef V4L2_PIX_FMT_ARGB2101010
+#undef V4L2_PIX_FMT_RGBA1010102
 #define V4L2_PIX_FMT_ARGB2101010       v4l2_fourcc('A', 'B', '1', '0')
 #define V4L2_PIX_FMT_ABGR2101010       v4l2_fourcc('A', 'R', '1', '0')
 #define V4L2_PIX_FMT_RGBA1010102       v4l2_fourcc('R', 'A', '1', '0')
